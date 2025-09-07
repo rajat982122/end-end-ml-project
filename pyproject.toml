@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sample_ml_project"
+version = "0.1.0"
+description = "A simple ML project"
+authors = [
+    { name = "Rajat Yadav", email = "rajat982122@gmail.com" }
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn"
+]
